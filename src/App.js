@@ -21,21 +21,21 @@ class App extends Component {
     
     // randomly creating a new ID
     let newID = Math.floor(Math.random() * 12)
-    let overNew = {
+    let bookmark= {
      id:newID,
      name:NewBookmark.Name,
      url:NewBookmark.url
     }
     // adding new bookmark to the state
     this.setState({
-      bookmark:[...this.state.bookmark, overNew]
+      bookmark:[...this.state.bookmark, bookmark]
     })
   }
 
   //deleting a bookmark
   DeleteBookmark = (id) =>{
     this.setState({
-      bookmark:[...this.state.bookmark.sefilter(bookmark => bookmark.id !== id
+      bookmark:[...this.state.bookmark.filter(bookmark => bookmark.id !== id
       )]
     })
   }
