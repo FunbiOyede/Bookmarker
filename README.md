@@ -11,6 +11,8 @@ Clone the repo locally. In a terminal, run:
 
 
 
+
+
 ## 2. Run the application
 
 Install Node.js
