@@ -1,10 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+
+## 1. Clone Repo
+
+Clone the repo locally. In a terminal, run:
+
+### `$ git clone https://github.com/FunbiOyede/Bookmarker`
+
+
+
+## 2. Run the application
+
+Install Node.js
+
+Run the following commands in a terminal:
+
+### `$ npm install`
+
+
 
 In the project directory, you can run:
 
-### `npm start`
+### `$ npm start`
+Verify app is running and working correctly.
+
+
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
